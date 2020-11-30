@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Floratechno Solution Pvt Ltd.
+    url: ""
+    location: Pune
+    # company overview
+    #overview: Floratechno Solution Pvt Ltd company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Software Engineer
+    start: March 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Writing Unit Tests for the current codebase.
+    - Knowledge of Rest API and Basics of gRPC.
+    - Refactoring code with Idiomatic Go.
+
+- company:
+    name: Scalent Pvt Ltd.
+    url: "https://www.scalent.io"
+    location: Baner,Pune
+    #overview: Scalent is a Golang Specilized company.
+  positions:
+  - designation: Junior Software Engineer
+    start: Jan 2019
+    end: Jun 2019
+    responsibilities:
+    - Writing REST API.
+    - Writing SQL queries.
+    - Involved in a complete life cycle including Analysis,Design,Development,and Testing.
